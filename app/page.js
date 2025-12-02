@@ -8,14 +8,14 @@ export default function HomePage() {
     <>
       <Hero
         title="Yaiba Productions"
-        subtitle="Cinematic storytelling born from independent vision."
+        subtitle="Forged in Creativity, Tempered by Passion."
       />
 
       <Container>
         <Section title="Our Mission">
           <p className="opacity-80 leading-relaxed">
             We are a Calgary-based film collective focused on crafting visually striking,
-            narrative-driven works that blend practical locations, immersive worldbuilding, and
+            narrative-driven works that blend practical locations, immersive world building, and
             disciplined production methodology. As independent creators, we aim to bring
             authentic stories to life through meaningful collaboration and cinematic craft.
           </p>
@@ -23,8 +23,7 @@ export default function HomePage() {
 
         <Section title="Active Project">
           <p className="opacity-80">
-            We currently have multiple productions in development, including narrative short films
-            and multimedia companion pieces.
+            We currently have one production in development, the narrative short film Yaiba: Condemnation.
           </p>
 
           <Link
