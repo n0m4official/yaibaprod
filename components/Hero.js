@@ -5,7 +5,7 @@ export default function Hero({ title, subtitle }) {
       <div className="absolute inset-0 bg-[url('/yaiba_prod_original.png')] bg-cover bg-center opacity-25" />
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-linear-to-b from-black/20 to-black" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/5 to-black" />
 
       {/* Text */}
       <div className="relative z-10 text-center animate-fade-in px-4">
