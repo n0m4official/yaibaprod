@@ -28,15 +28,16 @@ export default function ProjectsPage() {
             {/* Project Description */}
             <div>
               <p className="opacity-80 leading-relaxed">
-                The flagship original series from Yaiba Productions — a gritty, stylized neo-noir set in Allegory, a near-future city rebuilt in the shadow of a conflict that reshaped the world. Power in Allegory is a fragile illusion, divided between old-world syndicates, digital ghosts, corporate warlords, and a rising religious movement that promises salvation at a cost no one wants to admit.
+                Yaiba: Condemnation is the opening chapter of the Yaiba series — the episode that pulls viewers into the fractured, neon-lit world of Allegory.
 
-                At its core, Yaiba explores what happens when fractured families, forgotten soldiers, and buried truths collide in a city where every alliance has a price and every shadow hides a story. Rather than following a single perspective, Yaiba introduces a cast whose motives, histories, and loyalties intersect in ways that challenge what the city believes it knows about itself.
+                Set in the aftermath of a crisis the city refuses to acknowledge, Condemnation follows the first ripples of a much larger storm. Power brokers reposition themselves, old debts start to surface, and the uneasy balance holding Allegory together shows its first cracks. As the episode unfolds, the audience is introduced to the forces shaping the city — syndicates, ideologues, and ghosts of the past — each moving quietly toward a confrontation no one is ready for.
 
-                Visually and tonally, the project blends modern cyberpunk style, crime-drama tension, and character-driven storytelling, presented with a grounded realism and a strong cinematic identity. Our team aims to build a world that feels lived-in — shaped by culture, conflict, and the unspoken rules that govern life in Allegory.
+                Condemnation sets the tone for the series: atmospheric, grounded, and character-driven. Instead of answers, Episode 1 delivers tension, hints, and unanswered questions — enough to let viewers feel the weight of what's coming without revealing its shape.
 
-                Project: Yaiba is designed to unfold piece by piece through film, short-form media, worldbuilding content, and interactive storytelling. Each release reveals just enough to pull viewers deeper into the city — never giving everything away, but always expanding the mystery.
+                It's the first step into Allegory.
 
-                This is only the beginning.
+                And it makes one thing clear:
+                Nothing here stays buried forever.
               </p>
             </div>
 
