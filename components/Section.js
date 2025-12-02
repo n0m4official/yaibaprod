@@ -1,8 +1,8 @@
 export default function Section({ title, children }) {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-16">
-      <h2 className="text-3xl font-bold mb-4">{title}</h2>
-      <div>{children}</div>
+    <section className="py-16 border-b border-white/5">
+      <h2 className="text-3xl font-bold mb-6">{title}</h2>
+      <div className="space-y-4">{children}</div>
     </section>
   );
 }

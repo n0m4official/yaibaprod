@@ -4,15 +4,15 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Yaiba Productions",
-  description: "Independent film studio & digital creative collective.",
+  description: "Independent film studio and creative collective.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-black text-white">
-      <body className="flex min-h-screen flex-col">
+    <html lang="en">
+      <body className="bg-black text-gray-200 antialiased">
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main className="pt-20">{children}</main>
         <Footer />
       </body>
     </html>

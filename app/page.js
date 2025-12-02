@@ -1,30 +1,38 @@
+import Hero from "@/components/Hero";
 import Section from "@/components/Section";
+import Container from "@/components/Container";
 
 export default function HomePage() {
   return (
-    <div>
-      <section className="flex h-[70vh] items-center justify-center bg-[url('/placeholder.jpg')] bg-cover bg-center">
-        <div className="backdrop-blur-md bg-black/40 p-8 rounded-xl text-center">
-          <h1 className="text-5xl font-bold tracking-tight">Yaiba Productions</h1>
-          <p className="mt-4 text-lg opacity-80">
-            An independent creative studio crafting narrative-driven films and digital media.
+    <>
+      <Hero
+        title="Yaiba Productions"
+        subtitle="A Calgary-based film collective dedicated to cinematic storytelling, practical locations, and immersive worldbuilding."
+      />
+
+      <Container>
+        <Section title="Our Mission">
+          <p className="opacity-80 leading-relaxed">
+            Yaiba Productions is an independent creative studio focused on crafting
+            visually striking films, narrative-driven experiences, and digital content.
+            This website is a structural prototype — full studio information will be
+            added once the team finalizes our branding direction.
           </p>
-        </div>
-      </section>
+        </Section>
 
-      <Section title="Our Mission">
-        <p className="opacity-80">
-          This is the temporary skeleton version of our studio website.  
-          Final text, images, and team content will be added after review.
-        </p>
-      </Section>
-
-      <Section title="Current Projects">
-        <ul className="list-disc ml-6 opacity-80">
-          <li>Placeholder project cards will go here.</li>
-          <li>Trailers, stills, and full summaries will be added later.</li>
-        </ul>
-      </Section>
-    </div>
+        <Section title="Active Projects">
+          <div className="space-y-4 opacity-80">
+            <p>
+              This section will display project cards, trailers, posters, and BTS
+              content for our ongoing productions.
+            </p>
+            <ul className="list-disc ml-6">
+              <li><span className="opacity-70">Project placeholders here</span></li>
+              <li><span className="opacity-70">Future project grid layout</span></li>
+            </ul>
+          </div>
+        </Section>
+      </Container>
+    </>
   );
 }

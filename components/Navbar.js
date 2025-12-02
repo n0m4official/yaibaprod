@@ -2,17 +2,17 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="w-full border-b border-white/10 bg-black/40 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between py-4 px-6">
-        <Link href="/" className="text-xl font-semibold tracking-wide">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-md border-b border-white/10">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <Link href="/" className="text-xl font-semibold tracking-wide text-white">
           YAIBA
         </Link>
 
-        <div className="flex gap-6 text-sm opacity-80">
-          <Link href="/about">About</Link>
-          <Link href="/team">Team</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/contact">Contact</Link>
+        <div className="flex gap-6 text-sm text-gray-300">
+          <Link href="/about" className="hover:text-white transition">About</Link>
+          <Link href="/team" className="hover:text-white transition">Team</Link>
+          <Link href="/projects" className="hover:text-white transition">Projects</Link>
+          <Link href="/contact" className="hover:text-white transition">Contact</Link>
         </div>
       </div>
     </nav>
