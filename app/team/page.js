@@ -8,37 +8,37 @@ import TeamPanel from "@/components/TeamPanel";
 const members = [
   { 
     name: "Mat / NØM4", 
-    role: "Co-Founder / Director of Sound and Music / Lead Composer / Lead Developer", 
+    role: "Co-Founder / Director of Sound and Music / Lead Composer / Lead Developer / Actor", 
     img: "/team/mat.jpg", 
     bio: `Mat Dixon is a co-founder of Yaiba Productions and a software developer specializing in digital systems and audio design. He leads the studio's technical development across web platforms, production tools, and interactive features. Mat contributes experience in cybersecurity, aviation, and music production to the team's creative and technical workflows. He also serves as the lead composer for Yaiba's projects and performs as the DJ and music producer "NØM4." In addition to his technical roles, he portrays the enigmatic character N0M4 on screen.`
   },
   { 
     name: "Raul", 
-    role: "Co-Founder / Lead Producer / Writer / Assistant Director / Cinematography Lead", 
+    role: "Co-Founder / Lead Producer / Writer / Assistant Director / Cinematography Lead / Actor", 
     img: "/team/raul.jpg",
     bio: `Born in Kuala Lumpur, Malaysia, Raul Ponniah is a co-founder of Yaiba Productions and the producer overseeing all Yaiba-related media projects. He also portrays the lead role of Goryō. Raul blends the diversity of his background with a strong creative vision, contributing to both the narrative and organizational foundations of the studio. His commitment to empowerment, opportunity, and collaborative filmmaking helps drive Yaiba's mission and long-term growth.`
   },
   {
     name: "Marco", 
-    role: "Co-Founder / Head of PR / Logistics / Prop Master", 
+    role: "Co-Founder / Head of PR / Logistics / Prop Master / Actor", 
     img: "/team/marco.jpg",
     bio: `Marco Vitelli is a co-founder of Yaiba Productions and the lead actor portraying Sigfrido. He is a student in SAIT's Information Technology program and brings a background in technical work, theatre, and on-set operations. Marco provides steady guidance during production, ensuring that projects remain organized, efficient, and creatively focused. His leadership helps unify the team's strengths, while his coordination with external partners supports the studio's growth and long-term vision.`
   },
   { 
     name: "Aryan", 
-    role: "Co-Founder / Director / Creative Lead / Narrative Architect / Writer", 
+    role: "Co-Founder / Director / Creative Lead / Narrative Architect / Writer / Actor", 
     img: "/team/aryan.jpg",
     bio: `Aryan drives the overarching creative direction of Yaiba Productions. His worldbuilding, narrative design, and visual style define the studio's identity.`
   },
   {
     name: "Alyssa",
-    role: "Technical Operator / Costume Designer / Makeup Artist",
+    role: "Actor / Technical Operator / Costume Designer / Makeup Artist",
     img: "/team/alyssa.jpg",
     bio: `Alyssa is a technical operator and behind-the-scenes contributor at Yaiba Productions. She specializes in costume design and makeup artistry, helping to bring the studio's characters to life through visual aesthetics. Alyssa's attention to detail and creative skills enhance the overall production quality, ensuring that each project meets the studio's high standards.`
   },
   {
     name: "Nesh",
-    role: "Cinematographer / Editor / Visual Effects Artist",
+    role: "Actor / Cinematographer / Editor / Visual Effects Artist",
     img: "/team/nesh.jpg",
     bio: `Nesh is a cinematographer, editor, and visual effects artist at Yaiba Productions. He brings technical expertise and creative vision to the studio's projects, contributing to the visual storytelling through his skills in camera work, editing, and VFX. Nesh's contributions help elevate the production value and immersive experience of Yaiba's media content.`
   },
