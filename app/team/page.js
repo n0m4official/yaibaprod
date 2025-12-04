@@ -10,7 +10,7 @@ const members = [
     name: "Mat", 
     role: "Co-Founder / Director of Sound and Music / Lead Composer", 
     img: "/team/mat.jpg", 
-    bio: `Mat is a co-founder of Yaiba Productions and leads the sound, music direction,and overall audio identity of our projects. His background in composition and sound design shapes the studio's sonic signature across all productions.`
+    bio: `Mat Dixon is a software developer, digital creator, and sound designer specializing in immersive cyberpunk environments and atmospheric audio. As a co-founder of Yaiba Productions, he leads technical development across web platforms, internal tooling, and interactive ARG systems. His background in aviation, software development, and music production shapes the studio's high-tech aesthetic and reinforces its commitment to authenticity. Mat's multidisciplinary expertise supports both creative and technical pipelines, elevating project quality across the organization. He brings a forward-thinking, hands-on approach that drives the team toward deeper innovation and world building.`
   },
   { 
     name: "Raul", 
