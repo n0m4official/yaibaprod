@@ -8,25 +8,25 @@ import TeamPanel from "@/components/TeamPanel";
 const members = [
   { 
     name: "Mat", 
-    role: "Co-Founder / Director of Sound and Music / Lead Composer", 
+    role: "Co-Founder / Director of Sound and Music / Lead Composer / Lead Developer", 
     img: "/team/mat.jpg", 
     bio: `Mat Dixon is a software developer, digital creator, and sound designer specializing in immersive cyberpunk environments and atmospheric audio. As a co-founder of Yaiba Productions, he leads technical development across web platforms, internal tooling, and interactive systems. His background in aviation, cybersecurity, and music production shapes the studio's high-tech aesthetic and reinforces its commitment to authenticity. Mat's multidisciplinary expertise supports both creative and technical pipelines, elevating project quality across the organization. He brings a forward-thinking, hands-on approach that drives the team toward deeper innovation and world building.`
   },
   { 
     name: "Raul", 
-    role: "Co-Founder / Producer / Writer / Assistant Director", 
+    role: "Co-Founder / Lead Producer / Writer / Assistant Director / Cinematography Lead", 
     img: "/team/raul.jpg",
     bio: `Raul contributes to writing, producing, and assisting with direction. His creative perspective shapes narrative structure and thematic development.`
   },
   {
     name: "Marco", 
-    role: "Co-Founder / PR / Logistics / Prop master", 
+    role: "Co-Founder / Head of PR / Logistics / Prop master", 
     img: "/team/marco.jpg",
     bio: `Marco oversees logistics, PR coordination, and prop management. His eye for detail and organizational skills keep our productions running smoothly.`
   },
   { 
     name: "Aryan", 
-    role: "Co-Founder / Director / Creative Lead / Narrative Architect", 
+    role: "Co-Founder / Director / Creative Lead / Narrative Architect / Writer", 
     img: "/team/aryan.jpg",
     bio: `Aryan drives the overarching creative direction of Yaiba Productions. His worldbuilding, narrative design, and visual style define the studio's identity.`
   },
