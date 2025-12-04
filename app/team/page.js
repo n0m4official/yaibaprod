@@ -7,22 +7,22 @@ import TeamPanel from "@/components/TeamPanel";
 
 const members = [
   { 
-    name: "Mat", 
+    name: "Mat / NØM4", 
     role: "Co-Founder / Director of Sound and Music / Lead Composer / Lead Developer", 
     img: "/team/mat.jpg", 
-    bio: `Mat Dixon is a software developer, digital creator, and sound designer specializing in immersive cyberpunk environments and atmospheric audio. As a co-founder of Yaiba Productions, he leads technical development across web platforms, internal tooling, and interactive systems. His background in aviation, cybersecurity, and music production shapes the studio's high-tech aesthetic and reinforces its commitment to authenticity. Mat's multidisciplinary expertise supports both creative and technical pipelines, elevating project quality across the organization. He brings a forward-thinking, hands-on approach that drives the team toward deeper innovation and world building.`
+    bio: `Mat Dixon is a co-founder of Yaiba Productions and a software developer specializing in digital systems and audio design. He leads the studio's technical development across web platforms, production tools, and interactive features. Mat contributes experience in cybersecurity, aviation, and music production to the team's creative and technical workflows. He also serves as the lead composer for Yaiba's projects and performs as the DJ and music producer "NØM4." In addition to his technical roles, he portrays the enigmatic character N0M4 on screen.`
   },
   { 
     name: "Raul", 
     role: "Co-Founder / Lead Producer / Writer / Assistant Director / Cinematography Lead", 
     img: "/team/raul.jpg",
-    bio: `Raul contributes to writing, producing, and assisting with direction. His creative perspective shapes narrative structure and thematic development.`
+    bio: `Born in Kuala Lumpur, Malaysia, Raul Ponniah is a co-founder of Yaiba Productions and the producer overseeing all Yaiba-related media projects. He also portrays the lead role of Goryō. Raul blends the diversity of his background with a strong creative vision, contributing to both the narrative and organizational foundations of the studio. His commitment to empowerment, opportunity, and collaborative filmmaking helps drive Yaiba's mission and long-term growth.`
   },
   {
     name: "Marco", 
-    role: "Co-Founder / Head of PR / Logistics / Prop master", 
+    role: "Co-Founder / Head of PR / Logistics / Prop Master", 
     img: "/team/marco.jpg",
-    bio: `Marco oversees logistics, PR coordination, and prop management. His eye for detail and organizational skills keep our productions running smoothly.`
+    bio: `Marco Vitelli is a co-founder of Yaiba Productions and the lead actor portraying Sigfrido. He is a student in SAIT's Information Technology program and brings a background in technical work, theatre, and on-set operations. Marco provides steady guidance during production, ensuring that projects remain organized, efficient, and creatively focused. His leadership helps unify the team's strengths, while his coordination with external partners supports the studio's growth and long-term vision.`
   },
   { 
     name: "Aryan", 
@@ -40,15 +40,16 @@ export default function TeamPage() {
       <Hero 
         title="Our Team" 
         subtitle="Meet the people behind Yaiba Productions."
+        className="bg-black"
       />
 
-      <Container>
+      <Container className="bg-black">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-16">
 
           {members.map((m) => (
             <div 
               key={m.name}
-              className="text-center cursor-pointer group"
+              className="text-center cursor-pointer group bg-black"
               onClick={() => setSelected(m)}
             >
               {/* Image container with overlay */}
