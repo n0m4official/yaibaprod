@@ -9,20 +9,20 @@ const members = [
   { 
     name: "Mat", 
     role: "Co-Founder / Director of Sound and Music / Lead Composer", 
-    img: "/team/mat.jpg",
+    img: "/team/mat.jpg", 
     bio: `Mat is a co-founder of Yaiba Productions and leads the sound, music direction,and overall audio identity of our projects. His background in composition and sound design shapes the studio's sonic signature across all productions.`
-  },
-  { 
-    name: "Marco", 
-    role: "Co-Founder / PR / Logistics / Prop master", 
-    img: "/team/marco.jpg",
-    bio: `Marco oversees logistics, PR coordination, and prop management. His eye for detail and organizational skills keep our productions running smoothly.`
   },
   { 
     name: "Raul", 
     role: "Co-Founder / Producer / Writer / Assistant Director", 
     img: "/team/raul.jpg",
     bio: `Raul contributes to writing, producing, and assisting with direction. His creative perspective shapes narrative structure and thematic development.`
+  },
+  {
+    name: "Marco", 
+    role: "Co-Founder / PR / Logistics / Prop master", 
+    img: "/team/marco.jpg",
+    bio: `Marco oversees logistics, PR coordination, and prop management. His eye for detail and organizational skills keep our productions running smoothly.`
   },
   { 
     name: "Aryan", 
