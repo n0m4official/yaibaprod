@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SecretHotspot from "@/components/SecretHotspot";
 
 export const metadata = {
   title: "Yaiba Productions",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="pt-20">{children}</main>
         <Footer />
+        <SecretHotspot />
       </body>
     </html>
   );

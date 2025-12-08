@@ -32,9 +32,9 @@ export default function ProjectsPage() {
 
                 Set in the aftermath of a crisis the city refuses to acknowledge, Condemnation follows the first ripples of a much larger storm. Power brokers reposition themselves, old debts start to surface, and the uneasy balance holding Allegory together shows its first cracks. As the episode unfolds, the audience is introduced to the forces shaping the city — syndicates, ideologues, and ghosts of the past — each moving quietly toward a confrontation no one is ready for.
 
-                Condemnation sets the tone for the series: atmospheric, grounded, and character-driven. Instead of answers, Episode 1 delivers tension, hints, and unanswered questions — enough to let viewers feel the weight of what's coming without revealing its shape.
+                Condemnation sets the tone for the series: atmospheric, grounded, and character-driven. Instead of answers, Episode 1 delivers tension, hints, and unanswered questions — enough to let viewers feel the weight of what&apos;s coming without revealing its shape.
 
-                It's the first step into Allegory.
+                It&apos;s the first step into Allegory.
 
                 And it makes one thing clear:
                 Nothing here stays buried forever.
@@ -66,7 +66,6 @@ export default function ProjectsPage() {
 
           </div>
         </Section>
-
       </Container>
     </>
   );
