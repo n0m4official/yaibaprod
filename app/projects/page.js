@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
 import Lightbox from "@/components/Lightbox";
+import Link from "next/link";
 
 const SECRET_SEQUENCE = ["Y", "A", "I", "B", "A"];
 
@@ -135,6 +136,9 @@ export default function ProjectsPage() {
                 <br />
                 Nothing here stays buried forever.
               </p>
+              <Link href="/bts" className="inline-block mt-4 px-6 py-3 bg-white text-black rounded-md font-semibold hover:bg-gray-200 transition">
+                View Behind The Scenes
+              </Link>
             </div>
           </div>
         </Section>
