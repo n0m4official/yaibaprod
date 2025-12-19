@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -8,10 +9,13 @@ export default function Navbar() {
         {/* Logo + Site Name */}
         <Link href="/" className="flex items-center gap-3">
           <img 
-            src="/yaib_prod_icon-removebg-preview.png" 
-            alt="Yaiba Logo"
-            className="w-8 h-8 object-contain"
+            src="/yaib_prod_icon_removebg_preview.png" 
+            alt="Yaiba Logo" 
+            width="32" 
+            height="32"
+            className="w-8 h-8"
           />
+
           <span className="text-xl font-semibold tracking-wide text-white">
             YAIBA
           </span>
