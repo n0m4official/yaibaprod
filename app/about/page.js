@@ -10,14 +10,13 @@ export default function AboutPage() {
       <Container>
         <Section title="Our Story">
           <p className="opacity-80 leading-relaxed">
-            {/* Aryan's text will be inserted here once provided */}
-            This section will include the full studio origin story as written by Aryan.
+            {/* Text will be inserted here once provided */}
           </p>
         </Section>
 
         <Section title="Our Mission">
           <p className="opacity-80">
-            Reiterated mission statement goes here for a cohesive narrative across the site.
+            {/* Text will be inserted here once provided */}
           </p>
         </Section>
 
