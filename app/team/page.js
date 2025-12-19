@@ -4,7 +4,6 @@ import { useState } from "react";
 import Hero from "@/components/Hero";
 import Container from "@/components/Container";
 import TeamPanel from "@/components/TeamPanel";
-import Image from "next/image";
 
 const members = [
   { 
@@ -57,7 +56,7 @@ export default function TeamPage() {
               <div className="relative w-full aspect-square bg-gray-800 rounded-lg overflow-hidden mb-4">
 
                 {/* Image */}
-                <Image 
+                <img 
                   src={m.img} 
                   alt={m.name} 
                   className="object-cover w-full h-full transition duration-300 group-hover:opacity-60"
