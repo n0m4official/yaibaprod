@@ -1,5 +1,6 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export default function TeamPanel({ member, onClose }) {
   return (
@@ -33,10 +34,12 @@ export default function TeamPanel({ member, onClose }) {
 
             {/* Image */}
             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 border border-white/10">
-              <img 
+              <Image 
                 src={member.img}
                 alt={member.name}
-                className="object-cover w-full h-full"
+                layout="fill"
+                objectFit="cover"
+                className="w-full h-full"
               />
             </div>
 

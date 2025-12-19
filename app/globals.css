@@ -11,7 +11,7 @@
   --accent-violet: #7F5AF0;
 }
 
-@theme inline {
+:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

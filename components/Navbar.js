@@ -8,11 +8,11 @@ export default function Navbar() {
         
         {/* Logo + Site Name */}
         <Link href="/" className="flex items-center gap-3">
-          <img 
+          <Image 
             src="/yaib_prod_icon_removebg_preview.png" 
             alt="Yaiba Logo" 
-            width="32" 
-            height="32"
+            width={32} 
+            height={32}
             className="w-8 h-8"
           />
 
