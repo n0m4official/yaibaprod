@@ -14,10 +14,7 @@ export default function HomePage() {
       <Container>
         <Section title="Our Mission">
           <p className="opacity-80 leading-relaxed">
-            We are a Calgary-based film collective focused on crafting visually striking,
-            narrative-driven works that blend practical locations, immersive world building, and
-            disciplined production methodology. As independent creators, we aim to bring
-            authentic stories to life through meaningful collaboration and cinematic craft.
+            Yaiba productions goal is to bring people and business together in a way that showcases the unique importance of creativity and self expression. We have nurtured an environment that tries to motivate all to become creative and express themselves. In times where dreams and passion have become obscured by the hassles of greed, and the specter of AI use, Yaiba looks to challenge that norm and forge passion where fear runs rampant. Through diversity, through creativity, and through passion, we will hone the edge to become our greatest selves.
           </p>
         </Section>
 

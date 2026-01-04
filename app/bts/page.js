@@ -49,41 +49,14 @@ export default function BehindTheScenesPage() {
                 src="/bts/bts (9).jpg"
               alt="Behind the Scenes 9" />
               <img
-                src="/bts/bts (10).jpg"
+                src="/bts/bts (10).png"
               alt="Behind the Scenes 10" />
               <img
-                src="/bts/bts (11).jpg"
+                src="/bts/bts (11).png"
               alt="Behind the Scenes 11" />
               <img
-                src="/bts/bts (12).jpg"
+                src="/bts/bts (12).png"
               alt="Behind the Scenes 12" />
-              <img
-                src="/bts/bts (13).jpg"
-              alt="Behind the Scenes 13" />
-              <img
-                src="/bts/bts (14).jpg"
-              alt="Behind the Scenes 14" />
-              <img
-                src="/bts/bts (15).jpg"
-              alt="Behind the Scenes 15" />
-              <img
-                src="/bts/bts (16).jpg"
-              alt="Behind the Scenes 16" />
-              <img
-                src="/bts/bts (17).jpg"
-              alt="Behind the Scenes 17" />
-              <img
-                src="/bts/bts (18).jpg"
-              alt="Behind the Scenes 18" />
-              <img
-                src="/bts/bts (19).jpg"
-              alt="Behind the Scenes 19" />
-              <img
-                src="/bts/bts (20).jpg"
-              alt="Behind the Scenes 20" />
-              <img
-                src="/bts/bts (21).jpg"
-              alt="Behind the Scenes 21" />
             </div>
           </Section>
       </Container>
