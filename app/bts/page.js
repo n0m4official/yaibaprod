@@ -20,6 +20,7 @@ export default function BehindTheScenesPage() {
             className="bg-gray-700 hover:bg-gray-600 transition rounded-lg p-6"
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {/* Gallery Images */}
               <img
                 src="/bts/bts (1).jpg"
               alt="Behind the Scenes 1" />

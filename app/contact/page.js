@@ -10,7 +10,7 @@ export default function ContactPage() {
       <Container>
         <Section title="Email">
           <p className="opacity-80">
-            {/* Replace with real studio email */}
+            {/* Real studio email */}
             yaiba.productions.studios@gmail.com
           </p>
         </Section>
